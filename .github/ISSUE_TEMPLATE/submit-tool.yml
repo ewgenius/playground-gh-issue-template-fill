@@ -9,14 +9,47 @@ body:
       value: Thanks for taking the time to fill out new tool submission!
 
   - type: input
-    id: name
     attributes:
       label: "[name]"
       placeholder: new tool
+    validations:
+      required: true
 
   - type: input
-    id: links_website
     attributes:
-      label: "[links_website]"
+      label: "[links-website]"
       placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: "[links-examples]"
+      placeholder: https://example.com/examples
+
+  - type: input
+    attributes:
+      label: "[links-docs]"
+      placeholder: https://example.com/docs
+
+  - type: input
+    attributes:
+      label: "[links-pricing]"
+      placeholder: https://example.com/pricing
+
+  - type: input
+    attributes:
+      label: "[links-slack]"
+      placeholder: https://join.slack.com/t/example/shared_invite/___
+
+  - type: input
+    attributes:
+      label: "[slugs-github]"
+      placeholder: test/test
+
+  - type: input
+    attributes:
+      label: "[slugs-npm]"
+      placeholder: test
+
 

@@ -56,14 +56,4 @@ body:
       label: "[slugs-npm]"
       placeholder: test
 
-  - type: textarea
-    id: features
-    attributes:
-      label: "[features]"
-      value: >-
-        - [ ]: easy-to-customize\n
-        - [ ]: easy-to-start-with\n
-        - [ ]: full-fledged\n
-        - [ ]: very-popular\n
-        - [ ]: well-documented
 

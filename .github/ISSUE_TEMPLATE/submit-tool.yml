@@ -15,45 +15,8 @@ body:
       placeholder: new tool
 
   - type: input
-    id: links-website
+    id: links_website
     attributes:
-      label: "[links-website]"
+      label: "[links_website]"
       placeholder: https://example.com
-
-  - type: input
-    id: links-examples
-    attributes:
-      label: "[links-examples]"
-      placeholder: https://example.com/examples
-
-  - type: input
-    id: links-docs
-    attributes:
-      label: "[links-docs]"
-      placeholder: https://example.com/docs
-
-  - type: input
-    id: links-pricing
-    attributes:
-      label: "[links-pricing]"
-      placeholder: https://example.com/pricing
-
-  - type: input
-    id: links-slack
-    attributes:
-      label: "[links-slack]"
-      placeholder: https://join.slack.com/t/example/shared_invite/___
-
-  - type: input
-    id: slugs-github
-    attributes:
-      label: "[slugs-github]"
-      placeholder: test/test
-
-  - type: input
-    id: slugs-npm
-    attributes:
-      label: "[slugs-npm]"
-      placeholder: test
-
 

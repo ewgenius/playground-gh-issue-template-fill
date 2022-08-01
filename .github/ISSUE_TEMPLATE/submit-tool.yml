@@ -61,9 +61,9 @@ body:
     attributes:
       label: "[features]"
       value: >-
-        - [ ]: easy-to-customize
-        - [ ]: easy-to-start-with
-        - [ ]: full-fledged
-        - [ ]: very-popular
+        - [ ]: easy-to-customize\n
+        - [ ]: easy-to-start-with\n
+        - [ ]: full-fledged\n
+        - [ ]: very-popular\n
         - [ ]: well-documented
 

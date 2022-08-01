@@ -1,0 +1,23 @@
+{
+  "name": "playground-gh-issue-template-fill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "process": "node ./scripts/create-or-update-tool.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewgenius/playground-gh-issue-template-fill.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewgenius/playground-gh-issue-template-fill/issues"
+  },
+  "homepage": "https://github.com/ewgenius/playground-gh-issue-template-fill#readme",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "node-yaml": "^4.0.1"
+  }
+}

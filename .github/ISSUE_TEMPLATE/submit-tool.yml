@@ -1,0 +1,21 @@
+name: New Tool Submission
+description: Submit new tool
+title: "[New Tool Submission]: "
+labels: ["new-tool-submission"]
+
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out new tool submission!
+
+  - type: input
+    id: name
+    attributes:
+      label: Tool Name
+      placeholder: new tool
+
+  - type: input
+    id: site
+    attributes:
+      label: Tool Web Site
+      placeholder: https://example.com

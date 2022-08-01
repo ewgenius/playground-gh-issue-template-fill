@@ -1,0 +1,14 @@
+name: Handle Issue Submission
+
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  handle-labeled-issue:
+    name: Handle Labeled Issue
+    if: github.event.label.name == 'new-tool-submission'
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "test"

@@ -52,4 +52,67 @@ body:
       label: "[slugs-npm]"
       placeholder: test
 
+  - type: markdown
+    attributes:
+      value: Set new tool features (1 - 5)
+
+  - type: dropdown
+    attributes:
+      label: "[features-easy-to-customize]"
+      multiple: false
+      options:
+        - "0"
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+
+  - type: dropdown
+    attributes:
+      label: "[features-easy-to-start-with]"
+      multiple: false
+      options:
+        - "0"
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+
+  - type: dropdown
+    attributes:
+      label: "[features-full-fledged]"
+      multiple: false
+      options:
+        - "0"
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+
+  - type: dropdown
+    attributes:
+      label: "[features-very-popular]"
+      multiple: false
+      options:
+        - "0"
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+
+  - type: dropdown
+    attributes:
+      label: "[features-well-documented]"
+      multiple: false
+      options:
+        - "0"
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
 

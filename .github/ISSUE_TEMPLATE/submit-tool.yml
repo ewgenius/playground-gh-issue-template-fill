@@ -11,11 +11,11 @@ body:
   - type: input
     id: name
     attributes:
-      label: ">>Tool Name<<"
+      label: "[Tool Name]"
       placeholder: new tool
 
   - type: input
     id: site
     attributes:
-      label: ">>Tool Web Site<<"
+      label: "[Tool Web Site]"
       placeholder: https://example.com

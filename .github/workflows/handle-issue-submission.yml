@@ -11,4 +11,15 @@ jobs:
     if: github.event.label.name == 'new-tool-submission'
     runs-on: ubuntu-latest
     steps:
-      - run: echo "test"
+      - name: Parse Issue From
+        id: parse
+        uses: peter-murray/issue-forms-body-parser@v2.0.0
+        with:
+          issue_id: ${{ github.event.issue.number }}
+          separator: '###'
+          # label_marker_start: '>>'
+          # label_marker_end: '<<'
+
+      - name: Show parsed data JSON
+        run: |
+          echo "${{ steps.parse.outputs.payload }}"

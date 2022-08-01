@@ -54,7 +54,8 @@ body:
 
   - type: markdown
     attributes:
-      value: Set new tool features (1 - 5)
+      value: >-
+        \# Rate tool features (rank from 0 to 5)
 
   - type: dropdown
     attributes:
